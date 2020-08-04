@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Overview from '../components/Overview';
+import Map from '../components/Map';
 
 const OverviewPage = () => (
   <>
@@ -7,6 +8,10 @@ const OverviewPage = () => (
       <link rel="stylesheet" href="/static/react-vis.css" />
     </Head>
     <Overview />
+    <Map />
+    
+    
+
   </>
 );
 
