@@ -160,7 +160,6 @@ const TimelinePeriod = ({ content }) => (
 const Overview = () => {
   return (
     <div>
-      <h1>Graph content goes here!</h1>
     </div>
   );
 };
