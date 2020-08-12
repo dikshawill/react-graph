@@ -46,7 +46,8 @@ const MapContainer = () => {
                 <Marker key={index} position={{ lat: item.lat, lng: item.lng}} label={item.challans.toString()} name={item.name} onClick={() => {handleMarkerClick(item)}} />              
             );
         })}
-        </Map>
+
+          </Map>
               </div>
       );
     }
