@@ -34,9 +34,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c487a366-1998-4a48-97fc-2620122ec348" name="Default Changelist" comment="Committed from Diksha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Stacked.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Stacked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,7 @@
       <updated>1596018573557</updated>
       <workItem from="1596018575076" duration="844000" />
       <workItem from="1597136050070" duration="5071000" />
-      <workItem from="1597212953833" duration="1355000" />
+      <workItem from="1597212953833" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="Committed from Diksha">
       <created>1597137456633</created>
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597137456633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Committed from Diksha">
+      <created>1597215126593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597215126593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,14 +139,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597136217029" />
+    <state x="643" y="310" key="Github.ShareDialog" timestamp="1597214493194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1597214493194" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1597140248522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597140248522" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597213690851">
+    <state x="433" y="144" key="Vcs.Push.Dialog.v2" timestamp="1597215383733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597213690851" />
+    <state x="433" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597215383733" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597136424732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
