@@ -30,8 +30,7 @@ const OverviewPage = () => (
 
       flexDirection:"row"
     }}
-    >
-        <div style = {{
+    ><div style = {{
             height: "500px",
             width: "50%"
         }}>

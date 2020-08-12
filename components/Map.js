@@ -28,8 +28,7 @@ const MapContainer = () => {
             Total Challans: ${item.challans}`
         })
     }
-  
-      return (
+    return (
           <div
               style= {{
                   display: "flex",

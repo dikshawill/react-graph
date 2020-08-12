@@ -42,7 +42,6 @@ const data = [
           }}>
         <ResponsiveContainer>
 
-
 <AreaChart width={730} height={250} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
   <defs>
