@@ -30,6 +30,12 @@ const MapContainer = () => {
     }
   
       return (
+          <div
+              style= {{
+                  display: "flex",
+
+                  flexDirection:"row",
+                  width: '60%', height: 300 }}>
           <Map
             google={google}
             zoom={11}
@@ -42,12 +48,13 @@ const MapContainer = () => {
             );
         })}
         </Map>
+              </div>
       );
     }
 
   const mapStyles = {
-    width: '100%',
-    height: '100%',
+    width: '40%',
+    height: '12%',
   };
 
   export default GoogleApiWrapper({

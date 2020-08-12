@@ -2,7 +2,7 @@
 
 import React, { PureComponent } from 'react';
 import {
-  AreaChart, Area, XAxis, YAxis,  Tooltip,linearGradient, defs,CartesianGrid,
+  AreaChart, Area, XAxis, YAxis,  Tooltip,linearGradient, defs,CartesianGrid,ResponsiveContainer
 } from 'recharts';
 
 function Stacked () {
@@ -32,7 +32,16 @@ const data = [
 ];
 
     return (
-      <>
+        <>
+      <div
+          style= {{
+            display: "flex",
+
+            flexDirection:"row",
+            width: '60%', height: 300
+          }}>
+        <ResponsiveContainer>
+
 
 <AreaChart width={730} height={250} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
@@ -53,26 +62,11 @@ const data = [
         <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
         <Area type="monotone" dataKey="pv" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
       </AreaChart>
-      </>
+          </ResponsiveContainer>
+      </div>
+          </>
 
-    /*
-      <AreaChart
-        width={500}
-        height={400}
-        data={data}
-        margin={{
-          top: 10, right: 30, left: 0, bottom: 0,
-        }}
-      >
-       
-        
-        
-        <Tooltip />
-        <Area type="monotone" dataKey="uv" stackId="1" stroke="#A9A9A9" fill="#A9A9A9" />
-        <Area type="monotone" dataKey="amt" stackId="1" stroke="#add8e6" fill="#add8e6" />
-      </AreaChart>
 
-      */
     );
 
     }

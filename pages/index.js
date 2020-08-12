@@ -27,11 +27,16 @@ const OverviewPage = () => (
     <div 
     style= {{
       display: "flex",
-      justifyContent: "center",
+
       flexDirection:"row"
     }}
     >
-    <Overview />
+        <div style = {{
+            height: "500px",
+            width: "50%"
+        }}>
+            <Map/>
+        </div>
     
    <Stacked />
  
@@ -91,7 +96,7 @@ const OverviewPage = () => (
     <Line2/>
     <Echallan />
     </div>
-      <Map />
+
   </>
 );
 
